@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_regular">#ecff9754</color>
+    <color name="button_regular_text">#fff</color>
+    <color name="button_udacity_text">#000</color>
+    <color name="button_udacity">#ffc71740</color>
+</resources>

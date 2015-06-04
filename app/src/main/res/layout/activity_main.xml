@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffdfeaf1"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    >
+
+    <TextView
+        style="@style/mainTitle"
+        android:text="@string/main_title"
+        android:id="@+id/textView"
+         />
+
+    <LinearLayout
+        style="@style/wrapperButtons"
+        android:orientation="vertical" >
+
+        <Button
+            style="@style/btn_regular"
+            android:text="@string/btn_SPOTIFY_STREAMER"
+            android:onClick="onBtnClick"
+             />
+
+        <Button
+                style="@style/btn_regular"
+                android:text="@string/btn_SCORES_APP"
+                android:onClick="onBtnClick"
+             />
+
+        <Button
+                style="@style/btn_regular"
+                android:text="@string/btn_LIBRARY_APP"
+                android:onClick="onBtnClick"
+             />
+
+        <Button
+                style="@style/btn_regular"
+                android:text="@string/btn_BUILD_IT_BIGGER"
+                android:onClick="onBtnClick"
+           />
+
+        <Button
+                style="@style/btn_regular"
+                android:text="@string/btn_XYZ_READER"
+                android:onClick="onBtnClick"
+             />
+
+        <Button
+                style="@style/btn_udacity"
+                android:text="@string/btn_CAPSTONE_MY_OWN_APP"
+                android:onClick="onBtnClick"
+             />
+    </LinearLayout>
+</LinearLayout>
